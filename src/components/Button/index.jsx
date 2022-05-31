@@ -1,7 +1,5 @@
-import myAlert from "~/myAlert"
+import myAlert from '~/myAlert';
 
-const Button = () => (
-    <button onClick={myAlert}>Click me!</button>
-)
+const Button = () => <button onClick={myAlert}>Click me!</button>;
 
-export default Button
+export default Button;
