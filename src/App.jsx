@@ -4,6 +4,7 @@ import { publicRoutes } from './routes';
 import { DefaultLayout } from './components/Layouts';
 
 function App() {
+    console.log('re-render');
     return (
         <Router>
             <div className="App">
